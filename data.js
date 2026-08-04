@@ -334,7 +334,7 @@ const DATA = {
       {
         slug: "voidreaper-scythe",
         name: "Voidreaper Scythe",
-        image: "https://images.unsplash.com/photo-1601987177651-8edfe6c20009?q=80&w=1200&auto=format&fit=crop",
+        image: "images",
         rarity: "mythical",
         damage: 132, speed: 46, range: 40, critChance: 20,
         element: "Void",
@@ -353,7 +353,7 @@ const DATA = {
       {
         slug: "stormcaller-bow",
         name: "Stormcaller Bow",
-        image: "https://images.unsplash.com/photo-1584467541268-b040f83be3fd?q=80&w=1200&auto=format&fit=crop",
+        image: "images",
         rarity: "epic",
         damage: 95, speed: 60, range: 100, critChance: 22,
         element: "Lightning",
@@ -370,7 +370,7 @@ const DATA = {
       {
         slug: "hunters-longbow",
         name: "Hunter's Longbow",
-        image: "https://images.unsplash.com/photo-1516900557549-41557d405adf?q=80&w=1200&auto=format&fit=crop",
+        image: "images",
         rarity: "uncommon",
         damage: 58, speed: 65, range: 90, critChance: 18,
         element: "Physical",
@@ -392,7 +392,7 @@ const DATA = {
     {
       slug: "sunken-quarry",
       name: "Sunken Quarry",
-      banner: "https://images.unsplash.com/photo-1520962880247-cfaf541c8724?q=80&w=1400&auto=format&fit=crop",
+      banner: "images",
       level: "8 – 16",
       difficulty: "easy",
       boss: "Rockback Golem",
@@ -403,15 +403,15 @@ const DATA = {
       drops: [{ item: "Silver Ore", chance: "100%" }, { item: "Gold Ore", chance: "18%" }, { item: "Quarry Vest (cosmetic)", chance: "4%" }],
       tips: "The Rockback Golem telegraphs its slam attack with a red glow — dodge left, not back, to avoid the follow-up shockwave.",
       gallery: [
-        "https://images.unsplash.com/photo-1533587851505-d119e13fa0d7?q=80&w=800&auto=format&fit=crop",
-        "https://images.unsplash.com/photo-1500534623283-312aade485b7?q=80&w=800&auto=format&fit=crop",
-        "https://images.unsplash.com/photo-1521295121783-8a321d551ad2?q=80&w=800&auto=format&fit=crop"
+        "images",
+        "images",
+        "images"
       ]
     },
     {
       slug: "frostpeak-ridge",
       name: "Frostpeak Ridge",
-      banner: "https://images.unsplash.com/photo-1483347756197-71ef80e95f73?q=80&w=1400&auto=format&fit=crop",
+      banner: "images",
       level: "18 – 30",
       difficulty: "medium",
       boss: "Glacierwing Drake",
