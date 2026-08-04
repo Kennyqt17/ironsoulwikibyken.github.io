@@ -29,7 +29,7 @@ const DATA = {
     name: "IronSoulWIKI",
     tagline: "Buat game lu jadi Makin gampang",
     game: "Iron Soul", // placeholder Roblox game name
-    stats: { articles: 482, weekly_visitors: "128K", codes: 24, contributors: 340 }
+    stats: { articles: 12, weekly_visitors: "100", codes: 5, contributors: 100 }
   },
 
   /* ======================== GUIDES ======================== */
