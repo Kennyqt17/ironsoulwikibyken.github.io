@@ -1,3 +1,3 @@
 # IronSoul Wiki
-https://kennyqt17.github.io/ironsoulwikibyken/
+https://ironsoulwikibyken.github.io
 IronSoul Wiki - Buat Game Iron Soulmu Jadi Gampang
