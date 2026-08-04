@@ -8,13 +8,13 @@
 
    HOW TO ADD NEW CONTENT
    -----------------------
-   • New Ore        → copy an object inside DATA.ore and change the values.
-   • New Weapon     → copy an object inside DATA.weapons["light"] (or any
-                      of the 6 category keys) and change the values.
-   • New Dungeon    → copy an object inside DATA.dungeons.
-   • New Guide      → copy an object inside DATA.guides.
-   • New Code       → copy an object inside DATA.codes.active
-                      (move to DATA.codes.expired once it dies).
+   • New Ore         → copy an object inside DATA.ore and change the values.
+   • New Weapon      → copy an object inside DATA.weapons["light"] (or any
+                       of the 6 category keys) and change the values.
+   • New Dungeon     → copy an object inside DATA.dungeons.
+   • New Guide       → copy an object inside DATA.guides.
+   • New Code        → copy an object inside DATA.codes.active
+                       (move to DATA.codes.expired once it dies).
    • New News post  → copy an object inside DATA.news.
 
    Rules:
@@ -29,7 +29,7 @@ const DATA = {
     name: "IronSoulWIKI",
     tagline: "Buat game lu jadi Makin gampang",
     game: "Iron Soul", // placeholder Roblox game name
-    stats: { articles: 12, weekly_visitors: "100", codes: 5, contributors: 100 }
+    stats: { articles: 12, weekly_visitors: "10", codes: 5, contributors: 100 }
   },
 
   /* ======================== GUIDES ======================== */
@@ -144,7 +144,7 @@ const DATA = {
   ],
 
   /* ======================== ORE (Items) ======================== */
- ore: [
+  ore: [
     {
       slug: "iron-ore",
       name: "Kenki Ore",
@@ -467,49 +467,37 @@ const DATA = {
   /* ======================== NEWS ======================== */
   news: [
     {
-      slug: "summer-mining-event",
-      title: "Summer Mining Festival: Double Ore Weekend",
-      category: "Event News",
-      cover: "https://images.unsplash.com/photo-1533646127597-d304776ea1a0?q=80&w=1400&auto=format&fit=crop",
-      excerpt: "All ore drop rates are doubled from August 8th to August 11th, plus a limited-time cosmetic pickaxe skin for logging in.",
-      date: "2026-02-02",
-      body: "To celebrate the community hitting 10 million total dungeons cleared, we're running a Double Ore Weekend from August 8th through August 11th. Every ore node in the game — from Iron to Crystal — will have its drop rate doubled for the duration of the event. Players who log in at least once during the event window will also receive the limited-time Sunburst Pickaxe skin, free of charge."
-    },
-    {
-      slug: "new-weapon-voidreaper",
-      title: "New Weapon: Voidreaper Scythe Arrives",
-      category: "New Weapons",
-      cover: "https://images.unsplash.com/photo-1601987177651-8edfe6c20009?q=80&w=1400&auto=format&fit=crop",
-      excerpt: "Our first Mythical-rarity weapon is here. Craftable only from Nightmare Caverns materials, the Voidreaper Scythe heals you on every kill.",
-      date: "2026-07-25",
-      body: "The Voidreaper Scythe is Oreborn Frontier's first Mythical-rarity weapon, and it's built for players who love solo dungeon clears. Its Soul Harvest passive returns 8% of your max HP on every killing blow, letting skilled players sustain through entire dungeon runs without a single healing potion. Crafting it requires 18 Crystal Ore, 10 Mythril Ore, and 2 Void Fragments — all of which only drop from Nightmare Caverns. We expect this to be a multi-week grind for most players, and that's intentional: Mythical gear should feel earned."
-    },
-    {
-      slug: "new-crafting-recipe-lines",
-      title: "New Crafting: Upgrade Stone Tier 5 Added",
-      category: "New Crafting",
-      cover: "https://images.unsplash.com/photo-1517842645767-c639042777db?q=80&w=1400&auto=format&fit=crop",
-      excerpt: "A brand-new top-tier upgrade material has entered the game, unlocking the third upgrade slot on Legendary and Mythical weapons.",
-      date: "2026-07-18",
-      body: "Upgrade Stone Tier 5 is now craftable at the Blacksmith bench using 4 Crystal Ore and 2 Void Fragments. This unlocks the third and final upgrade slot on every Legendary and Mythical weapon in the game, letting dedicated players push their gear to its true maximum potential ahead of the upcoming Abyssal Depths expansion."
+      slug: "update-patch-preview",
+      title: "Update Patch 10.5 ✨️",
+      category: "Update Patch",
+      cover: "Images/update10.6.jpg",
+      excerpt: "New Weapon Type - Scythe, Tartarus Hell Mode Update, Glory Store, and more!",
+      date: "2026-07-22",
+      body: `🔥 **UPDATE** 🔥
+
+⚔️ **Senjata Baru: Scythe**
+• Gabungan kekuatan Heavy & Light
+• Scythe eksklusif cuma bisa ditempa di Shattered Land
+
+😈 **Tartarus: Hell Mode Update**
+• Hell Ores baru
+• Bisa tempa Hell Weapons & Armours baru
+
+🛒 **Glory Store**
+• Ada Special Weapon baru!
+
+⚙️ **Extra**
+• Musuh yang nyangkut bakal otomatis teleport ke kamu
+• Season II selesai dalam 7 hari!`
     },
     {
       slug: "New Update",
-      title: "Update 10.0 Notes: NEW UPDATE",
+      title: "Update 10.6 Notes: NEW UPDATE",
       category: "Patch Notes",
       cover: "Images/update10.6.jpg",
       excerpt: "Frostpeak Ridge enemies have been rebalanced, the Frostbind Staff passive got a duration nerf, and we've fixed the Copper Ore despawn bug.",
       date: "2026-08-01",
       body: "Season II is coming to a close, and the Endless Tower will be closing along with it. We've heard all your feedback, and we promise to bring back a better Endless Tower in Season III! Our top priorities are making it less time consuming, fixing bugs, and most importantly making it more fun. We’re also adding a Season Recap page, where you can look back at your highest floor reached and total damage dealt during Season II in Endless Tower! The Glory Store is getting an item refresh, along with a brand-new exclusive weapon! You’ll also be able to try Glory Store items for a limited time before deciding whether to get them. Tip: Your pity progress and Glory Cores from the Glory Wheel will be saved permanently and will not reset! Please note: Trial items cannot be enhanced, enchanted, upgraded, or ascended. They also won’t contribute to your total Power. A new daily sign-in event is on the way! More regular events are coming soon, so stay tuned! Scrolls can now be traded and now provide more Power! The complete skill tree for Fist Weapons has been added! Added an item-locking feature to the inventory. Lock your valuable items so you don’t accidentally sell them! You can now choose how many items you want to sell to merchants at once."
     },
-    {
-      slug: "abyssal-depths-teaser",
-      title: "Upcoming: Abyssal Depths Expansion Teaser",
-      category: "Upcoming Updates",
-      cover: "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?q=80&w=1400&auto=format&fit=crop",
-      excerpt: "A first look at the next major biome, a new ore tier beyond Crystal, and a seventh weapon category coming later this year.",
-      date: "2026-07-30",
-      body: "We're excited to share an early teaser for Abyssal Depths, our next major content expansion. It introduces a brand-new biome beneath Nightmare Caverns, a new ore tier that sits above Crystal in rarity, and — for the first time since launch — a seventh weapon category. We're not ready to reveal full details yet, but expect a deeper dive in next month's news post."
-    }
   ]
 };
